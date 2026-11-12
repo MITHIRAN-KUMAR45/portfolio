@@ -1,0 +1,10 @@
+{
+  "description": "Showcase your expertise as a Frontend Lead Developer with a visually stunning portfolio that highlights your skills, projects, and professional journey.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
