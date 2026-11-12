@@ -354,7 +354,7 @@ function App() {
             <button className="icon-button" onClick={() => setDark(!dark)} aria-label={`Switch to ${dark ? "light" : "dark"} theme`}>
               <Icon name={dark ? "sun" : "moon"} />
             </button>
-            <a className="button button-small button-outline resume-button" href="/Mithiran-Kumar-Resume.html" download>
+            <a className="button button-small button-outline resume-button" href="./Mithiran-Kumar-Resume.html" download>
               <Icon name="download" size={17} /> Resume
             </a>
             <button className="icon-button menu-button" onClick={() => setMenuOpen(!menuOpen)} aria-expanded={menuOpen} aria-label="Toggle navigation">
@@ -364,7 +364,7 @@ function App() {
         </nav>
         <div className={`mobile-nav ${menuOpen ? "open" : ""}`}>
           {["Home", ...navLinks].map((link) => <a key={link} onClick={() => setMenuOpen(false)} href={`#${link.toLowerCase()}`}>{link}</a>)}
-          <a href="/Mithiran-Kumar-Resume.html" download>Download Resume <Icon name="download" size={18} /></a>
+          <a href="./Mithiran-Kumar-Resume.html" download>Download Resume <Icon name="download" size={18} /></a>
         </div>
       </header>
 
